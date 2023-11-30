@@ -11,6 +11,8 @@ public class Main{
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // sort를 Comparator의 compare을 오버라이딩하여 정렬하기 위해 사용 
         ArrayList<Double> scoreList = new ArrayList<>();
 
         // 과목 수 (subject Numbers)
