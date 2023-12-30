@@ -18,6 +18,7 @@ public class BOJ1978{
         int[] intArr = new int[N];
         st = new StringTokenizer(br.readLine(), " ");
 
+        // 입력값들을 int로 변환하여 intArr에 저장하는 for문
         for(int i = 0; i < N; i++){
             intArr[i] = Integer.parseInt(st.nextToken());
         }
